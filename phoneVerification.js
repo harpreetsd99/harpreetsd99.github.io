@@ -86,7 +86,7 @@ function signInWithPhone(sentCodeId,phoneNumber) {
                   window.location.assign('./');
                 }
                 else{
-                  alert('You are logging in for first time please enter details.')
+                  alert('You are logging in for first time please enter details.');
                   // Make changes here
                   document.getElementById("signup-content").style.display = "block";
                   document.getElementById("signin-content").style.display = "none";
