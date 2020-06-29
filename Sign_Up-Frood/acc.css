@@ -1,0 +1,116 @@
+html, body {
+    width: 100% !important;
+    overflow-x: hidden !important;
+    background-color: #f1f3f6;
+    font-family: 'Roboto', sans-serif;
+}
+body::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
+body::-webkit-scrollbar-track {
+  background: #1c2224;        /* color of the tracking area */
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #ff8c00;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid #1c2224;  /* creates padding around scroll thumb */
+}
+.navbar{
+	background-color: #1c2224;
+	height: 65px;
+	padding-left:30px;
+	padding-right: 5px;
+}
+#nav-mobile li {
+	padding-right:25px;
+	cursor: pointer;
+}
+#nav-mobile li a:hover{
+	color: #ff8c00 !important;
+	transform: scale(1.1);
+	background-color: rgba(255,255,255,0.1);
+}
+main{
+	margin:10px;
+}
+.img{
+	border:2px solid #dadce0;
+	padding:58px 50px;
+	background-color:#fff;
+}
+#profile-img{
+	border:2px solid black;
+	border-radius: 130px;
+	padding: 10px;
+	margin-top:25px;
+	background-color: #fff;
+	height: 160px;
+	width: 150px;
+}
+.orders, .wallet{
+	border:2px solid #dadce0;
+	padding:10px 50px;
+	background-color:#fff;
+}
+.details{
+	border:2px solid #dadce0;
+	background-color:#fff;
+	padding:18px 50px;
+}
+#submit-btn{
+	display: none;
+}
+.page-footer{
+	background-color: #1c2224 !important;
+}
+@media only screen and (min-device-width : 769px) and (max-device-width : 1024px) {
+.img{
+	padding:54px 50px;
+}
+}
+@media only screen and (max-device-width : 768px){
+.img{
+	padding:40px 50px;
+}
+#profile-img{
+	padding: 10px;
+	margin-top:25px;
+	height: 130px;
+	width: 120px;
+}
+.orders, .wallet{
+	padding:15px 5px;
+}
+.details{
+	padding:0px 50px;
+}
+h4{
+	font-size: 26px !important;
+}
+main{
+	margin:5px;
+}
+}
+@media only screen and (max-width: 425px){
+main{
+	margin:0px;
+}
+.img{
+	padding:40px 50px;
+}
+#profile-img{
+	padding: 10px;
+	margin-top:25px;
+	height: 100px;
+	width: 100px;
+}
+.details{
+	padding:18px 50px;
+}
+}
+@media only screen and (max-width: 375px) {
+
+}
+@media only screen and (max-width: 320px) {
+
+}
